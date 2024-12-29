@@ -1,0 +1,273 @@
+/*** css para margin-padding
+    #exemplo {
+    background-color: pink;
+    color: #fff;
+    padding: 10px 20px 30px 30px;
+    height: 50%;
+    width: 500px;
+}
+
+#exemplo2 {
+    background-color: violet;
+    color:#fff;
+    width: 500px;
+    height: 200px;
+    margin: 100px 100px 100px 100px;
+}
+*/
+
+/** css para text
+p {color: red;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 30px;
+    direction: ltr;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+h1 {
+    text-align: left;
+    text-decoration: underline;
+    text-shadow: 3px 3px 4px red;
+}
+
+h2 {
+    text-align: right;
+    text-decoration: overline;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: line-through;
+}
+
+*/
+
+
+/** box-sizing e box-shadow
+* {
+    box-sizing: border-box;
+}
+
+#conteudo {
+    background-color: red;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px green;
+}
+*/
+
+
+/** AULA 11
+    overflow-opacity
+#conteudo {
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+}
+
+#conteudo p {
+    opacity: 0.5;
+}
+*/
+
+/** AULA 12
+#bloco {
+    background-color: green;
+    width: 300px;
+    height: 150px;
+    border-radius: 0px 50px 100px 200px;
+}
+*/
+
+/** AULA 13
+* { 
+    font-size: 100%;
+}
+P {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style:italic;
+    font-size: 2.5em;
+    }
+*/
+
+/** AULA 14
+* {
+    font-size:100%;
+    }
+
+@font-face {
+    font-family: garet_book;
+    src: url(garet-book-webfont.woff);
+    }
+
+p {
+    font-family: garet_book;
+    font-size: 2.5em;
+}
+*/
+
+/** AULA 15
+p {
+    font-family: "Playwrite AU VIC Guides", serif;
+    font-size: 2.5em;
+}
+  
+*/
+
+/** AULA 16
+#cores {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 84, 179);
+}
+
+
+#cores {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(20, 100%, 59%, 0.8);
+}
+*/
+
+/** AULA 17
+#cores {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, red,blue, purple);
+}
+
+#cores {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, rgba(255,0,0,0),blue, purple);
+}
+
+#cores {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(red, green);
+}
+
+*/
+
+/** AULA 18
+#base {
+    background-color: green;
+    width: 600px;
+    height: 600px;
+}
+
+#esquerda {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#direita {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+*/
+
+/** AULA 19
+#conteudo {
+    width: 600px;
+    height: 1200px;
+    background-color: red;
+}
+
+#texto {
+    width: 500px;
+    background-color: green;
+    position: fixed; 
+    left: 0;
+    top: 0;
+}
+
+dotted, dashed, solid, double, groove, ridge, inset, outset
+
+*/
+
+/** AULA 20 (opções de border :dotted, dashed, solid, double, groove, ridge, inset, outset)
+#exemplo {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    outline: dotted 5px green;
+}
+
+*/
+
+/** AULA 21
+#exemplo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition-property: width;
+    transition-duration: 2s; 
+    transition-timing-function: linear;
+    transition-delay: 2s;
+}
+
+#exemplo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition:  all 2s linear;
+}
+
+#exemplo:hover {
+    width: 350px;
+    height: 350px;
+    background-color: green;
+}
+*/
+/** AULA 22
+body {
+    background-color: red;
+}
+
+body {
+    background-image:url(../img/foto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+*/
+
+/** AULA 29
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100vw;
+    height: 80px;
+    background-color: blue;
+}
+
+.banner {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-image: url(../img/imagem.jpg);
+    background-size: cover;
+}
+*/
+/**
+AULA 30 E ÚLTIMA
+filters: blur, brightness, contrast, grayscale, invert, opacity, saturate, sepia, hue rotate, drop-shadow( p1 p2 p3 color) + filter*/
+img {
+    margin: 40px 0 0 60px;
+    filter: contrast(80%);
+}
